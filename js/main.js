@@ -15,5 +15,6 @@ alert(captureInput);
 //--- Hard
 // let 
 //create a variable that holds the h1
-
+let h1Holder = num + captureInput;
 //add an event listener to that element that console logs the sum of the two previous variables
+document.querySelector('h1').addEventListener('click', console.log(h1Holder));
